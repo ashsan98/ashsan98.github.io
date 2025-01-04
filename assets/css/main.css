@@ -113,18 +113,6 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-#banner #name-image {
-    float: right; /* Position image to the right */
-    margin-left: 10px; /* Add spacing between text and image */
-    width: 50px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
-    vertical-align: top; /* Prevent image from affecting line spacing */
-}
-
-#banner .major h1 {
-    display: block; /* Ensure h1 behaves like a block-level element */
-}
-
 /* Type */
 
 	body, input, select, textarea {
