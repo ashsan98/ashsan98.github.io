@@ -114,11 +114,15 @@ input, select, textarea {
 		}
 
 #banner #name-image {
-    position: absolute;
-    right: 0; /* Align to the right edge of the container */
-    top: 0; /* Adjust vertical alignment as needed */
-    width: 50px;
-    height: auto;
+    float: right; /* Position image to the right */
+    margin-left: 10px; /* Add spacing between text and image */
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: top; /* Prevent image from affecting line spacing */
+}
+
+#banner .major h1 {
+    display: block; /* Ensure h1 behaves like a block-level element */
 }
 
 /* Type */
