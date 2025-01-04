@@ -116,7 +116,7 @@ input, select, textarea {
 #banner #name-image {
     float: right; /* Position image to the right */
     margin-left: 10px; /* Add spacing between text and image */
-    width: 150px; /* Adjust size as needed */
+    width: 550px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
     vertical-align: top; /* Prevent image from affecting line spacing */
 }
