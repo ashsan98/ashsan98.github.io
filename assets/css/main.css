@@ -113,6 +113,14 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+#banner #name-image {
+    position: absolute;
+    right: 0; /* Align to the right edge of the container */
+    top: 0; /* Adjust vertical alignment as needed */
+    width: 50px;
+    height: auto;
+}
+
 /* Type */
 
 	body, input, select, textarea {
